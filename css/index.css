@@ -1,3 +1,7 @@
+:root {
+    --main-color: #7510f7;
+  }
+
 .home-section {
     height: 100vh;
     width: 100vw;
@@ -49,11 +53,8 @@
 }
 
 .contact-section h1 {
-
     color: #eee;
 }
-
-
 
 .skill-container {
     display: flex;
@@ -68,6 +69,34 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
 
+.skill i, .skill span{
+    color: var(--main-color);
+}
+ .skill span{
+    font-weight: 500;
 
+}
+
+.lang{
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color:#eee;
+    border: solid 1px #800080;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+h1{
+    color: var(--main-color)!important;
+}
+.about-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.about-text{
+    font-weight: 400;
+    font-size: 1.5rem;
 }

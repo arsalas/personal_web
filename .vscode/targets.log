@@ -1,216 +1,145 @@
-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 4.3
-# Built for Windows32
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
-# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-# This is free software: you are free to change and redistribute it.
-# There is NO WARRANTY, to the extent permitted by law.
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
 
-# Make data base, printed on Mon Jun 13 09:34:54 2022
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Mon Jun 13 13:51:06 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# environment
-SYSTEMDRIVE = C:
-# environment
-LC_ALL = C
-# environment
-USERPROFILE = C:\Users\ramir
-# environment
-LOCALAPPDATA = C:\Users\ramir\AppData\Local
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5ce47a66-bbd0-4406-9063-1dcc150dbaee-sock
-# environment
-VSCODE_CWD = C:\Users\ramir\AppData\Local\Programs\Microsoft VS Code
-# environment
-CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
-# environment
-SYSTEMROOT = C:\WINDOWS
-# environment
-PROCESSOR_LEVEL = 23
-# environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
-# default
-MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
-# environment
-GOPATH = C:\Users\ramir\go
 # automatic
-@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
-# environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13152_CQZTLDCMAJBRMTDA
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# default
-.VARIABLES := 
-# automatic
-%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
-# automatic
-^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
-# environment
-VSCODE_LOG_STACK = false
-# automatic
-%F = $(notdir $%)
-# environment
-VSCODE_CODE_CACHE_PATH = C:\Users\ramir\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
-# environment
-LANG = C
-# default
-.LOADED := 
-# environment
-TMP = C:\Users\ramir\ 
-AppData\Local\Temp
-# default
-.INCLUDE_DIRS = .
-# environment
-PROCESSOR_ARCHITEW6432 = AMD64
-# makefile
-MAKEFLAGS = pqrR
-# environment
-ONEDRIVE = C:\Users\ramir\OneDrive
-# makefile
-CURDIR := c:/xampp/htdocs/web
-# environment
-VSCODE_PIPE_LOGGING = true
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# automatic
-*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
-# environment
-PROGRAMFILES = C:\Program Files (x86)
-# environment
-MFLAGS = -pqrR
-# default
-.SHELLFLAGS := -c
-# environment
-COMMONPROGRAMW6432 = C:\Program Files\Common Files
-# automatic
-+D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
-# automatic
-@F = $(notdir $@)
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 13152
-# automatic
-?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
-# automatic
-*F = $(notdir $*)
-# automatic
-<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
-# environment
-VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"344f874593baddd658cebe39fce52ece.es","_translationsConfigFile":"C:\\Users\\ramir\\AppData\\Roaming\\Code\\clp\\344f874593baddd658cebe39fce52ece.es\\tcf.json","_cacheRoot":"C:\\Users\\ramir\\AppData\\Roaming\\Code\\clp\\344f874593baddd658cebe39fce52ece.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\ramir\\AppData\\Roaming\\Code\\clp\\344f874593baddd658cebe39fce52ece.es\\4af164ea3a06f701fe3e89a2bcbb421d2026b68f","_corruptedFile":"C:\\Users\\ramir\\AppData\\Roaming\\Code\\clp\\344f874593baddd658cebe39fce52ece.es\\corrupted.info","_languagePackSupport":true}
-# environment
-JD2_HOME = C:\Users\ramir\AppData\Local\JDownloader 2.0
-# environment
-ONEDRIVECONSUMER = C:\Users\ramir\OneDrive
-# default
-MAKE_HOST := Windows32
-# environment
-PROGRAMDATA = C:\ProgramData
-# default
-SHELL := sh.exe
-# environment
-HOMEPATH = \Users\ramir
-# default
-MAKECMDGOALS := all
-# environment
-DRIVERDATA = C:\Windows\System32\Drivers\DriverData
-# environment
-COMSPEC = C:\WINDOWS\system32\cmd.exe
-# environment
-WINDIR = C:\WINDOWS
-# environment
-MAKELEVEL := 0
-# default
-MAKE = $(MAKE_COMMAND)
-# environment
-PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Go\bin;C:\ProgramData\chocolatey\bin;C:\Ruby31-x64\bin;C:\Users\ramir\AppData\Local\Microsoft\WindowsApps;C:\Users\ramir\AppData\Local\GitHubDesktop\bin;C:\Users\ramir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ramir\AppData\Roaming\npm;C:\Users\ramir\.dotnet\tools;C:\Users\ramir\AppData\Roaming\Composer\vendor\bin;C:\Users\ramir\go\bin
-# environment
-COMPUTERNAME = ALBERTOPC
-# default
-MAKEFILES := 
-# automatic
-^F = $(notdir $^)
-# environment
-PROMPT = $P$G
-# environment
-CHOCOLATEYLASTPATHUPDATE = 132995436140788770
-# environment
-LOGONSERVER = \\ALBERTOPC
-# environment
-VSCODE_LOG_NATIVE = false
-# environment
-USERNAME = ramir
-# environment
-COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+<D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
 # environment
-PROGRAMW6432 = C:\Program Files
-# environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+VSCODE_LOG_NATIVE = false
 # automatic
-+F = $(notdir $+)
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /System/Volumes/Data/sgoinfre/aramirez/personal_web
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n000cbfc0032vl/T/vscode-ipc-2ad645f3-d824-436b-9f7f-9a0be5924c45.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Users/aramirez/.brew/bin:/Users/aramirez/.brew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.zaJHSwtokr/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+HOMEBREW_TEMP = /tmp/aramirez/Homebrew/Temp
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /System/Volumes/Data/sgoinfre/aramirez/personal_web
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERDOMAIN = ALBERTOPC
-# 'override' directive
-GNUMAKEFLAGS := 
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
 # environment
-OS = Windows_NT
+HOME = /Users/aramirez
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/aramirez/Library/Application Support/Code/CachedData/5554b12acf27056905806867f251c859323ff7e9
+# environment
+LOGNAME = aramirez
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+HOMEBREW_CACHE = /tmp/aramirez/Homebrew/Caches
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = aramirez
 # makefile
 .DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
 # default
-MAKE_VERSION := 4.3
-# environment
-PROGRAMFILES(X86) = C:\Program Files (x86)
-# environment
-USERDOMAIN_ROAMINGPROFILE = ALBERTOPC
-# environment
-NUMBER_OF_PROCESSORS = 16
-# environment
-PUBLIC = C:\Users\Public
-# environment
-APPDATA = C:\Users\ramir\AppData\Roaming
-# environment
-HOMEDRIVE = C:
-# environment
-PROCESSOR_ARCHITECTURE = x86
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-TEMP = C:\Users\ramir\AppData\Local\Temp
-# environment
-VSCODE_IPC_HOOK = \\.\pipe\1af92e1219eb5c643aa565e7fd1fe20e-1.68.0-main-sock
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
 # default
-.RECIPEPREFIX := 
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/zz/zyxvpxvq6csfxvn_n000cbfc0032vl/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/aramirez/Library/Application Support/Code/1.64.0-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MAIL = aramirez@student.42barcelona.com
+# environment
+XPC_SERVICE_NAME = com.microsoft.VSCode.3220
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x18B73:0x0:0x8
+# default
+MAKEFILES := 
 # automatic
 <F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
 # default
 SUFFIXES := 
-# environment
-ALLUSERSPROFILE = C:\ProgramData
-# environment
-SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+.INCLUDE_DIRS = /usr/local/include
 # environment
-PROCESSOR_REVISION = 7100
+MAKELEVEL := 0
 # environment
-PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+LANG = C
+# environment
+VSCODE_PID = 3674
 # variable set hash-table stats:
-# Load=99/1024=10%, Rehash=0, Collisions=10/129=8%
+# Load=63/1024=6%, Rehash=0, Collisions=1/89=1%
 
 # Pattern-specific Variable Values
 
@@ -218,7 +147,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key c:/xampp/htdocs/web, mtime 1655105693): 14 files, no impossibilities.
+# . (device 436207620, inode 157224744): 14 files, no impossibilities.
 
 # 14 files, no impossibilities in 1 directories.
 
@@ -228,46 +157,34 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
 
 # Files
 
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-12 23:43:19
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
 all:
-#  Command line target.
+#  Command-line target.
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
+#  Implicit/static pattern stem: `'
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # automatic
 # @ := all
 # automatic
-# * := 
+# % := 
 # automatic
-# < := 
+# * := 
 # automatic
 # + := 
 # automatic
-# % := 
+# | := 
+# automatic
+# < := 
 # automatic
 # ^ := 
 # automatic
 # ? := 
-# automatic
-# | := 
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
-#  recipe to execute (from 'Makefile', line 2):
-	start chrome http://localhost/web/public
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  commands to execute (from `Makefile', line 2):
+	@sh start.sh
+	
 
 # Not a target:
 .SUFFIXES:
@@ -275,20 +192,34 @@ all:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 13:45:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 # files hash-table stats:
-# Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
+# Load=4/1024=0%, Rehash=0, Collisions=0/18=0%
 # VPATH Search Paths
 
-# No 'vpath' search paths.
+# No `vpath' search paths.
 
-# No general ('VPATH' variable) search path.
+# No general (`VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 129 B / avg = 7 B
-# current buf: size = 8174 B / used = 129 B / count = 17 / avg = 7 B
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# strcache performance: lookups = 24 / hit rate = 29%
-# hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=0/24=0%
-# Finished Make data base on Mon Jun 13 09:34:54 2022
+# Finished Make data base on Mon Jun 13 13:51:06 2022
 
  

@@ -1,5 +1,5 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-make: Entering directory 'c:/xampp/htdocs/web'
-start chrome http://localhost/web/public
-make: Leaving directory 'c:/xampp/htdocs/web'
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/System/Volumes/Data/sgoinfre/aramirez/personal_web'
+sh start.sh
+make: Leaving directory `/System/Volumes/Data/sgoinfre/aramirez/personal_web'
  
