@@ -11,6 +11,9 @@ class Router
                 include("../src/views/Projects.php");
                 include("../src/views/Contact.php");
                 break;
+            case 'email':
+                echo 'Not implemented';
+                break;
             default:
                 header("Location: " . $GLOBALS['URL']);
                 break;

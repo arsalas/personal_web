@@ -51,25 +51,23 @@
 }
 
 .contact-section {
-    height: 100vh;
-    width: 100vw;
-    background-color: var(--bg2-color);;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg2-color);
 }
 
-.contact-content{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-
+.contact-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 
-.color{
-    color: var(--main-color);
+.color {
+  color: var(--main-color);
 }
-
 
 .skill-container {
   display: flex;
