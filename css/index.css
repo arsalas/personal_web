@@ -1,102 +1,116 @@
 :root {
-    --main-color: #7510f7;
-  }
+  --main-color: #026670;
+  --secondary-color: #9fedd7;
+  --bg1-color: #fef9c7;
+  --bg2-color: #fce181;
+  --bg3-color: #edeae5;
+}
 
 .home-section {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../assets/background.jpg');
-    box-shadow: inset 100vw 1000px 100px rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/background.jpg");
+  box-shadow: inset 100vw 1000px 100px rgba(0, 0, 0, 0.5);
 }
 
 .home-container p {
-    color: #eee;
-    text-align: center;
+  color: var(--bg1-color);
+  text-align: center;
 }
 
 .about-section {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg1-color);
 }
 
-.about-container {
-    height: 100%;
+.about-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects-section {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f1f1f1;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg3-color);
+}
+.projects-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-section {
     height: 100vh;
     width: 100vw;
+    background-color: var(--bg2-color);;
+}
+
+.contact-content{
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    background-color: #313131;
-    color: #eee;
+
 }
 
-.contact-section h1 {
-    color: #eee;
+.color{
+    color: var(--main-color);
 }
+
 
 .skill-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100% ;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .skill {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.skill i, .skill span{
-    color: var(--main-color);
+.skill i,
+.skill span {
+  color: var(--main-color);
 }
- .skill span{
-    font-weight: 500;
-
-}
-
-.lang{
-    padding: 10px 20px;
-    background-color: var(--main-color);
-    color:#eee;
-    border: solid 1px #800080;
-    margin-bottom: 5px;
-    font-weight: 500;
+.skill span {
+  font-weight: 500;
 }
 
-h1{
-    color: var(--main-color)!important;
+.lang {
+  padding: 10px 20px;
+  background-color: var(--main-color);
+  color: #eee;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  font-weight: 500;
 }
-.about-content{
-    height: 100%;
-    display: flex;
-    align-items: center;
+
+h1 {
+  color: var(--main-color) !important;
 }
-.about-text{
-    font-weight: 400;
-    font-size: 1.5rem;
+.about-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.about-text {
+  font-weight: 400;
+  font-size: 1.5rem;
 }
