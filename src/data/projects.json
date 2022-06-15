@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Camino Real",
+        "image": "CaminoReal.png"
+    },
+    {
+        "name": "Capel",
+        "image": "Capel.png"
+    },
+    {
+        "name": "David Dalmau",
+        "image": "logoDavidDalmau.png"
+    },
+    {
+        "name": "Kung fu",
+        "image": "logoKungfu.png"
+    },
+    {
+        "name": "Social Labs",
+        "image": "SocialLabs.png"
+    },
+    {
+        "name": "Yastas",
+        "image": "Yastas.png"
+    },
+    {
+        "name": "Space Steath",
+        "image": "Splash.png"
+    }
+]

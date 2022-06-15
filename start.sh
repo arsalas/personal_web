@@ -1,1 +1,1 @@
-start chrome http://localhost/web/public
+start chrome http://localhost/personal-web/public
