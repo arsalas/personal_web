@@ -1,30 +1,38 @@
 [
     {
         "name": "Camino Real",
-        "image": "CaminoReal.png"
+        "image": "CaminoReal.png",
+        "isVideo": false,
+        "projectImage": "CaminoReal.png",
+        "description": "Panel de administracion de Hotel Real para gestionar la informacion de la app y contactar con los huespedes de la cadena de hoteles",
+        "tecnologies": "HTML, CSS, MySQL, JS, PHP",
+        "url": false
     },
     {
         "name": "Capel",
-        "image": "Capel.png"
-    },
-    {
-        "name": "David Dalmau",
-        "image": "logoDavidDalmau.png"
-    },
-    {
-        "name": "Kung fu",
-        "image": "logoKungfu.png"
+        "image": "Capel.png",
+        "isVideo": false,
+        "projectImage": "Capel.png",
+        "description": "Panel de administracion para llevar la gestion de la emprea y sus clientes",
+        "tecnologies": "HTML, CSS, MySQL, PHP",
+        "url": false
     },
     {
         "name": "Social Labs",
-        "image": "SocialLabs.png"
+        "image": "SocialLabs.png",
+        "isVideo": false,
+        "projectImage": "panel.jpeg",
+        "description": "Panel de administracion para gestionar el funcionamiento de la app y el seguimiento de sus asesores",
+        "tecnologies": "HTML, CSS, MySQL, JS, PHP",
+        "url": false
     },
     {
-        "name": "Yastas",
-        "image": "Yastas.png"
-    },
-    {
-        "name": "Space Steath",
-        "image": "Splash.png"
+        "name": "Social Market",
+        "image": "Yastas.png",
+        "isVideo": false,
+        "projectImage": "Yastas.png",
+        "description": "E-commerce destinado a las compras de los tenderos y el pago mediante el credito solicitado al banco",
+        "tecnologies": "HTML, CSS, MySQL, JS, PHP, VueJs",
+        "url": false
     }
 ]
