@@ -30,7 +30,7 @@ class Mail
             $mail->Host       = $this->host;                            // Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
             $mail->Username   = $this->username;                        // SMTP username
-            $mail->Password   =  $this->password;                       // SMTP password
+            $mail->Password   = $this->password;                        // SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
             $mail->Port       = $this->port;                            // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -44,19 +44,14 @@ class Mail
             // Content
             $mail->isHTML(true);                                        // Set email format to HTML
             $mail->CharSet = 'UTF-8';
-            $body = "<div>$email</div>";
-            $body .= "<div>$message</div>";
             $mail->Subject = $subject;
-            $mail->Body    = $body;
-            $mail->AltBody = $body;
-
+            $mail->Body    = $message;
+            $mail->AltBody = $message;
             $mail->send();
-
             $response['status'] = 'OK';
         } catch (Exception $e) {
             $response['status'] = 'KO';
         }
-
         return $response;
     }
 }

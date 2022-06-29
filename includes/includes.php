@@ -1,6 +1,7 @@
 <?php
 require '../vendor/autoload.php';
 require_once("../config/globals.php");
+include_once("../src/controllers/MailController.php");
 include_once("../src/components/ProjectCard.php");
 include_once("../src/components/Carousel.php");
 include_once("../src/components/Modal.php");

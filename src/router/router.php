@@ -18,7 +18,7 @@ class Router
                     $mail = new Mail();
                     $mail->sendEmail($_POST['email'],  $_POST['subject'], $_POST['message']);
                     echo json_encode(array('status' => 'OK'));
-                } catch (\Throwable $th) {
+                } catch (Exception $e) {
                     echo json_encode(array('status' => 'KO'));
                 }
                 break;
