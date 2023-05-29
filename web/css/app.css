@@ -1,0 +1,39 @@
+/* #app {
+  margin: 0;
+  padding: 0;
+} */
+
+.app-layout {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
+
+.app-column {
+  /* width: 50%; */
+  height: 100%;
+  padding: 2rem;
+}
+
+.app-column.user-description {
+  /* height: calc(100vh - 60px); */
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+  position: sticky;
+  top: 60px;
+  left: 0px;
+}
+
+.app-sections {
+  flex: 6;
+  overflow-y: auto;
+}
+
+/* .app-column.user-description footer {
+	display: flex;
+	justify-content: center;
+  } */

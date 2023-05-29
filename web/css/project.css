@@ -1,0 +1,32 @@
+.project-box {
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.project-box:hover {
+  background-color: rgba(56, 68, 188, 0.15);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+
+.project-box:hover .subtitle {
+  color: var(--primary);
+}
+
+.project-box article {
+  flex: 1;
+  padding: 0.5rem;
+}
+.project-box aside {
+  padding: 0.5rem;
+  /* margin-right: 1rem; */
+  width: 150px;
+}
+
+.project-box img {
+  object-fit: cover;
+  object-position: center;
+}

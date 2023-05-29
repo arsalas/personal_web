@@ -7,7 +7,7 @@ class Image
     public static function get($name)
     {
 
-        $path = dirname(__DIR__) . '/assets/' . $name;
+		$path = dirname(__DIR__) . "/assets/images/" . $name;
         // Extensión de la imagen
         $type = pathinfo($path, PATHINFO_EXTENSION);
         // Cargando la imagen

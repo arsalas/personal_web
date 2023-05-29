@@ -9,6 +9,7 @@ class Mail
     private $host;
     private $username;
     private $password;
+    private $port;
 
     function __construct()
     {

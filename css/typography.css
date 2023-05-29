@@ -1,0 +1,29 @@
+body {
+  color: var(--color-text);
+}
+
+.title,
+.subtitle,
+strong {
+  color: var(--color-title);
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+.icon.link {
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--color-text);
+  transition: 300ms;
+}
+a:hover {
+  color: var(--color-title);
+}
+
+section {
+  margin-bottom: 2rem;
+}
