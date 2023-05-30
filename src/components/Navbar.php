@@ -1,7 +1,7 @@
 <header class="navbar">
 
 	<div class="brand">
-		<img src="<?php echo Image::get('logo.png') ?>" alt="">
+		<img src="<?php echo Image::get('logo.png') ?>" alt="logo">
 	</div>
 	<nav>
 		<ul>

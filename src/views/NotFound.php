@@ -25,7 +25,7 @@
 			color: #fff;
 		}
 
-		a{
+		a {
 			text-decoration: none;
 			font-size: 1.2rem;
 			color: #aaa;
@@ -35,10 +35,10 @@
 
 <body>
 	<h1 class="title">
-		Pagina no encontrada
+		404 Página no encontrada
 	</h1>
 
-	<a href="https://albertoramirezsalas.com">Volver</a>
+	<a href="https://albertoramirezsalas.com">Regresar</a>
 </body>
 
 

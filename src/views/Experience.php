@@ -34,7 +34,7 @@
 				<h1 class="subtitle mb-2">Ironhack</h1>
 				<p>Lead Teacher</p>
 				<p>
-					Profesor encargado de liderar el bootcamp de front end de desarrollo web.
+					Profesor encargado de liderar el bootcamp de Front-end de desarrollo web.
 				</p>
 				<ul class="mt-2">
 					<li class="tag is-rounded mb-2">JavaScript</li>
@@ -53,8 +53,7 @@
 			<article>
 				<h1 class="subtitle mb-2">Social Labs</h1>
 				<p>
-					Desarrollador full stack en Social Labs. Dentro de la empresa lleve a cabo proyectos retadores para mi carrera como Market Yastas, un gran ecomerce para los pequenos comercios de Mexico donde podian realizar sus pedidos mediante creditos bancarios desde la misma aplicacion
-				</p>
+					 Desarrollador Full Stack en Social Labs. Dentro de la empresa lleve a cabo proyectos retadores para mi carrera como Market Yastas, un gran ecomerce para los pequeños comercios de México donde podían realizar sus pedidos mediante créditos bancarios desde la misma aplicación. </p>
 				<ul class="mt-2">
 					<li class="tag is-rounded mb-2">JavaScript</li>
 					<li class="tag is-rounded mb-2">Vue</li>
@@ -72,10 +71,9 @@
 		<div class="experience-box">
 			<aside class="date">2019 — 2019</aside>
 			<article>
-				<h1 class="subtitle mb-2">Captura Electronica</h1>
+				<h1 class="subtitle mb-2">Captura Electrónica</h1>
 				<p>
-					En Captura Electronica pude iniciar un proyecto para trasladar la gestion de la empresa de access a un panel de administracion web.
-				</p>
+					En Captura Electrónica pude iniciar un proyecto para trasladar la gestión de la empresa de Access a un panel de administración web. </p>
 				<ul class="mt-2">
 					<li class="tag is-rounded mb-2">PHP</li>
 					<li class="tag is-rounded mb-2">HTML</li>

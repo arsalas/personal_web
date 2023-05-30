@@ -6,13 +6,13 @@
 			<div class="app-column user-description">
 				<main>
 					<h1 class="title">Alberto Ramirez Salas</h1>
-					<h2 class="subtitle">Web | Videojuegos | Profesor</h2>
+					<h2 class="subtitle">Aplicaciones Web | Videojuegos | Profesor</h2>
 					<h3 class="description">
-						Desarrollo aplicaciones web, videojuegos y doy clases de programacion.
+					Desarrollo aplicaciones web, videojuegos y doy clases de programación.
 					</h3>
 
 					<form id="form" class="mt-6" action="">
-						<p class="mb-4">Si quieres mas informacion sobre mis servicios puedes enviarme un mensaje</p>
+						<p class="mb-4">Si quieres más información sobre mis servicios puedes enviarme un mensaje.</p>
 						<div class="columns">
 							<div class="column">
 								<div class="field">
@@ -89,7 +89,7 @@
 			body: form,
 		})
 		document.querySelector('#btn').classList.remove('is-loading');
-		alert('El mensaje se ha enviado correctamente, en breve recibiras una respuesta')
+		alert('El mensaje se ha enviado correctamente, en breve recibirás una respuesta.')
 		name.value = ''
 		email.value = ''
 		message.value = ''
