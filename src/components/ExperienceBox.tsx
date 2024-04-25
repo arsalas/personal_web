@@ -9,14 +9,15 @@ export default function ExperienceBox({
   role,
 }: Experience) {
   return (
-    <div className="text-slate-400 flex py-10 gap-4">
-      <aside className="w-60">
+    <div className="text-slate-400 flex py-10 gap-4 flex-col sm:flex-row">
+      {/* <aside className="w-60">
         <h2 className="my-1 text-right">{date}</h2>
-      </aside>
+	</aside> */}
       <article className="flex-1">
         <h2 className="text-2xl text-slate-300">
           {role} · {title}
         </h2>
+        <h2 className="">{date}</h2>
         <p>{description}</p>
         <ul className="flex flex-wrap mt-5">
           {tags.map((tag) => (

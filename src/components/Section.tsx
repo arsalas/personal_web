@@ -3,5 +3,5 @@ interface Props {
 }
 
 export default function Section({ children }: Props) {
-  return <section className="min-h-svh bg-sky-950">{children}</section>;
+  return <section className="bg-gradient-to-r from-blue-950 to-blue-900">{children}</section>;
 }

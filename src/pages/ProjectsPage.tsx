@@ -1,6 +1,4 @@
 import Section from "../components/Section";
-
-import img from "../assets/images/davinciawards.png";
 import { useProjects } from "../hooks/useProjects";
 import ProjectBox from "../components/ProjectBox";
 
@@ -11,10 +9,10 @@ export default function ProjectsPage() {
     <Section>
       <article
         id="projects"
-        className="flex flex-col justify-center items-center min-h-svh"
+        className="flex flex-col justify-center items-center p-4"
       >
         <div className=" max-w-4xl">
-          <h2 className="text-4xl font-semibold text-slate-200 mb-5 text-center">
+          <h2 className="text-xl font-bold uppercase tracking-widest text-slate-200 ">
             Projects
           </h2>
 

@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar{
-	
+.fiCircle {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  border-radius: 100%;
+  border: none;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.06);
+  background: white;
+}
+
+.frame {
+  width: 79.5%;
+  height: 75%;
+  top: 14.5%;
+  left: 10.2%;
 }

@@ -1,5 +1,7 @@
+import { getImageUrl } from "../helpers/images";
 import { Project } from "../hooks/useProjects";
 import Tag from "./Tag";
+import template from "../assets/screenshot/51shots_so.png";
 
 export default function ProjectBox({
   description,
@@ -23,7 +25,22 @@ export default function ProjectBox({
         </ul>
 
         <figure>
-          {image ? <img src={image} alt="" /> : <iframe src={video}></iframe>}
+          {image ? (
+            <img src={getImageUrl(image)} alt="" />
+          ) : (
+            <div>
+              <div className="relative">
+                <div className="absolute frame">
+                  <iframe
+                    className="w-full h-full"
+                    src={`https://www.youtube.com/embed/${video}`}
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <img className="" src={template} alt="" />
+              </div>
+            </div>
+          )}
         </figure>
       </article>
     </div>
