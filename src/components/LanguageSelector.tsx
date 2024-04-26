@@ -58,7 +58,7 @@ export default function LanguageSelector() {
           {selectedLanguage && (
             <>
               <FlagIcon countryCode={selectedLanguage.key} />
-              <span className="ml-4">{selectedLanguage.name}</span>
+              {/* <span className="ml-4">{selectedLanguage.name}</span> */}
             </>
           )}
 
@@ -80,7 +80,7 @@ export default function LanguageSelector() {
 
       {isOpen && (
         <div
-          className="origin-top-right absolute right-0 mt-2 w-96 rounded-md shadow-lg bg-blue-950/50 text-slate-200"
+          className="animate__animated animate__fadeIn animate__faster origin-top-right absolute right-0 mt-2 w-96 rounded-md shadow-lg bg-blue-950/50 text-slate-200"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby={LANGUAGE_SELECTOR_ID}

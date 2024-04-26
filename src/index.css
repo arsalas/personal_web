@@ -12,6 +12,17 @@
   background: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  /* @apply bg-gradient-to-r from-blue-950 to-blue-900; */
+  background: #172554;
+  /* background: linear-gradient(80deg, #172554 , #1e3a8a ); */
+}
+
 .frame {
   width: 79.5%;
   height: 75%;

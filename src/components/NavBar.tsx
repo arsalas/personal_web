@@ -27,33 +27,38 @@ export default function NavBar() {
               {t("title.projects")}
             </a>
           </li>
-          <li className="w-44">
+          <li className="">
             <LanguageSelector />
           </li>
         </ul>
       </nav>
       <div className="block sm:hidden fixed w-full py-2 bg-gradient-to-r from-blue-950/90 to-blue-900/90 z-50">
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="flex items-center px-3 py-2 rounded text-slate-200 hover:text-slate-400"
-        >
-          <svg
-            className={`fill-current h-3 w-3 ${isOpen ? "hidden" : "block"}`}
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
+        <div className="flex justify-between">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="flex items-center px-3 py-2 rounded text-slate-200 hover:text-slate-400"
           >
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-          <svg
-            className={`fill-current h-3 w-3 ${isOpen ? "block" : "hidden"}`}
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
-          </svg>
-        </button>
+            <svg
+              className={`fill-current h-3 w-3 ${isOpen ? "hidden" : "block"}`}
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+            <svg
+              className={`fill-current h-3 w-3 ${isOpen ? "block" : "hidden"}`}
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+            </svg>
+          </button>
+          <div>
+            <LanguageSelector />
+          </div>
+        </div>
         {isOpen && (
-          <ul className="flex flex-col justify-end text-white p-2 ">
+          <ul className="animate__animated animate__fadeIn animate__faster flex flex-col justify-end text-white p-2 ">
             <li className="px-4">
               <a
                 className="group flex items-center py-3 active"
@@ -80,9 +85,6 @@ export default function NavBar() {
               >
                 {t("title.projects")}
               </a>
-            </li>
-            <li className="w-44">
-              <LanguageSelector />
             </li>
           </ul>
         )}

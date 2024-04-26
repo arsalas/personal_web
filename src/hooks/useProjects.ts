@@ -68,7 +68,7 @@ const projects_en: Array<Project> = [
   {
     title: "Parcheesi",
     description:
-      "Juego de parchís creado para máquina arcade donde podrás jugar contra 4 jugadores y crear un perfil de jugador. Puedes acumular puntos con tu perfil de jugador.",
+      "Parcheesi game created for arcade machine where you can play against 4 players and create a player profile. You can accumulate points with your player profile.",
     tags: ["Unreal Engine", "C++"],
     video: "WMrV7jWcu0k",
   },
