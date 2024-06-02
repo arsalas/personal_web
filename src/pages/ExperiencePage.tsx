@@ -35,11 +35,11 @@ export default function ExperiencePage() {
               href="/resume.pdf"
               target="_blank"
               rel="noreferrer noopener"
-              aria-label="View Full Résumé (opens in a new tab)"
+              aria-label="View Full Resume (opens in a new tab)"
             >
               <span>
-			  {t("resume")}
-                  {/* <svg
+                {t("resume")}
+                {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -52,7 +52,6 @@ export default function ExperiencePage() {
                       clip-rule="evenodd"
                     ></path>
                   </svg> */}
-               
               </span>
             </a>
           </div>

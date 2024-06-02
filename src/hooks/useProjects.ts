@@ -25,6 +25,7 @@ const projects_es: Array<Project> = [
       "Web personal y portafolio. Con un panel de administración para poder gestionar el contenido mostrado en la web.",
     tags: ["JavaScript", "Vue", "PHP", "HTML", "CSS", "MySQL"],
     image: "plavital.png",
+	url: "https://www.plavital.com"
   },
 
   {
@@ -56,6 +57,7 @@ const projects_en: Array<Project> = [
       "Personal website and portfolio. With an administration panel to manage the content displayed on the web.",
     tags: ["JavaScript", "Vue", "PHP", "HTML", "CSS", "MySQL"],
     image: "plavital.png",
+	url: "https://www.plavital.com"
   },
 
   {

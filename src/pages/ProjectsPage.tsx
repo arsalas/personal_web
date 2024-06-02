@@ -16,7 +16,7 @@ export default function ProjectsPage() {
             Projects
           </h2>
 
-          {projects.map(({ description, tags, title, image, video }) => (
+          {projects.map(({ description, tags, title, image, video, url }) => (
             <ProjectBox
               description={description}
               tags={tags}
@@ -24,6 +24,7 @@ export default function ProjectsPage() {
               image={image}
               key={title}
               video={video}
+              url={url}
             />
           ))}
         </div>

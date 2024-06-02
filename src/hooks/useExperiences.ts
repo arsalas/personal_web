@@ -32,7 +32,7 @@ const experiences_es: Array<Experience> = [
   {
     title: "Avantgarde IT (Freelance)",
     date: "AGOSTO 2023 — PRESENTE",
-    role: "Full Stack Developer Freelance",
+    role: "Full Stack Developer",
     description: `Desarrollar nuevas funcionalidades en la plataform Front End.
 	Corregir errores en otras funciones.
 	Crear nuevas funciones para la REST Api del Back End.
@@ -101,8 +101,8 @@ const experiences_en: Array<Experience> = [
   },
   {
     title: "Avantgarde IT (Freelance)",
-    date: "AUGOST 2023 — PRESENT",
-    role: "Full Stack Developer Freelance",
+    date: "AUG 2023 — PRESENT",
+    role: "Full Stack Developer",
     description: `Develop new features at Front End Platform.
 	Fix bugs in others features.
 	Create new features at Back End REST Api.
@@ -124,7 +124,7 @@ const experiences_en: Array<Experience> = [
     date: "SEPT 2022 — NOV 2022",
     role: "Lead Teacher",
     description: `Lead a team of instructors at Front End Bootcamp with HTML, CSS, JavaScript, Vue.js and Git.
-	  Developing and executinf comprehensive lesson plans.
+	  Developing and executing comprehensive lesson plans.
 	  Delivering dynamic and interactive classes.`,
     tags: ["JavaScript", "Vue", "HTML", "CSS"],
   },
