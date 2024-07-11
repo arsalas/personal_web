@@ -25,7 +25,7 @@ const projects_es: Array<Project> = [
       "Web personal y portafolio. Con un panel de administración para poder gestionar el contenido mostrado en la web.",
     tags: ["JavaScript", "Vue", "PHP", "HTML", "CSS", "MySQL"],
     image: "plavital.png",
-	url: "https://www.plavital.com"
+    url: "https://www.plavital.com",
   },
 
   {
@@ -42,6 +42,14 @@ const projects_es: Array<Project> = [
     tags: ["Unreal Engine", "C++"],
     video: "WMrV7jWcu0k",
   },
+  {
+    title: "Elixir of Madness",
+    description:
+      'Juego realizado la Level Up Game Jam 2024 de tematica "Inteligencia Colectiva vs Locura Colectiva"',
+    tags: ["Unreal Engine"],
+    video: "azuFPTO57I4",
+    url: "https://arsalas.itch.io/elixir-of-madness",
+  },
 ];
 const projects_en: Array<Project> = [
   {
@@ -57,7 +65,7 @@ const projects_en: Array<Project> = [
       "Personal website and portfolio. With an administration panel to manage the content displayed on the web.",
     tags: ["JavaScript", "Vue", "PHP", "HTML", "CSS", "MySQL"],
     image: "plavital.png",
-	url: "https://www.plavital.com"
+    url: "https://www.plavital.com",
   },
 
   {
@@ -74,6 +82,15 @@ const projects_en: Array<Project> = [
     tags: ["Unreal Engine", "C++"],
     video: "WMrV7jWcu0k",
   },
+  {
+    title: "Elixir of Madness",
+    description:
+      'Game build for Level Up Game Jam 2024 with subject "Collective Intelligence vs Collective Madness"',
+    tags: ["Unreal Engine"],
+    video: "azuFPTO57I4",
+    url: "https://arsalas.itch.io/elixir-of-madness",
+  },
+
 ];
 
 export function useProjects() {
