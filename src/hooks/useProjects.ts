@@ -40,7 +40,7 @@ const projects_es: Array<Project> = [
     description:
       "Juego de parchis creado para una maquina de arcade donde se puede jugar contra 4 jugadores y crear un perfil de jugador.",
     tags: ["Unreal Engine", "C++"],
-    video: "WMrV7jWcu0k",
+    video: "Za9HJG0iIK4",
   },
   {
     title: "Elixir of Madness",
@@ -80,7 +80,7 @@ const projects_en: Array<Project> = [
     description:
       "Parcheesi game created for arcade machine where you can play against 4 players and create a player profile. You can accumulate points with your player profile.",
     tags: ["Unreal Engine", "C++"],
-    video: "WMrV7jWcu0k",
+    video: "Za9HJG0iIK4",
   },
   {
     title: "Elixir of Madness",
