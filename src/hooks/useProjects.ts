@@ -27,6 +27,14 @@ const projects_es: Array<Project> = [
     image: "plavital.png",
     url: "https://www.plavital.com",
   },
+  {
+    title: "Xihui Yogini",
+    description:
+      "Tienda online de Bienestar Natural.",
+    tags: ["Shopify"],
+    image: "xihui.png",
+    url: "https://xihuiyogini.com/",
+  },
 
   {
     title: "Space Stealth",
@@ -66,6 +74,14 @@ const projects_en: Array<Project> = [
     tags: ["JavaScript", "Vue", "PHP", "HTML", "CSS", "MySQL"],
     image: "plavital.png",
     url: "https://www.plavital.com",
+  },
+  {
+    title: "Xihui Yogini",
+    description:
+      "Natural Wellbeing Marketplace.",
+    tags: ["Shopify"],
+    image: "xihui.png",
+    url: "https://xihuiyogini.com/",
   },
 
   {

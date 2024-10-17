@@ -27,6 +27,7 @@ const experiences_es: Array<Experience> = [
       "MySQL",
       "NodeJs",
       "Unreal Engine",
+	  "Unity"
     ],
   },
   {
@@ -97,6 +98,7 @@ const experiences_en: Array<Experience> = [
       "MySQL",
       "NodeJs",
       "Unreal Engine",
+	  "Unity"
     ],
   },
   {
