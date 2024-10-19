@@ -30,7 +30,7 @@ const projects_es: Array<Project> = [
   {
     title: "Xihui Yogini",
     description:
-      "Tienda online de Bienestar Natural.",
+      "Diseñé y desarrollé un marketplace en Shopify, integrando múltiples pasarelas de pago, opciones de envío y sistemas de gestión de inventario. La plataforma cuenta con un panel de control intuitivo para los vendedores, facilitando la gestión de sus productos y pedidos.",
     tags: ["Shopify"],
     image: "xihui.png",
     url: "https://xihuiyogini.com/",
@@ -46,9 +46,9 @@ const projects_es: Array<Project> = [
   {
     title: "Parchis",
     description:
-      "Juego de parchis creado para una maquina de arcade donde se puede jugar contra 4 jugadores y crear un perfil de jugador.",
-    tags: ["Unreal Engine", "C++"],
-    video: "Za9HJG0iIK4",
+      "Desarrollador de videojuegos presenta su proyecto de parchís para arcade, diseñado en Unity. La interfaz táctil horizontal permite una interacción fluida para hasta 4 jugadores simultáneos. Con modos de juego individuales y por parejas, perfiles personalizables y un sistema de puntuación, este juego ofrece una experiencia completa y rejugable.",
+    tags: ["Unity", "C#"],
+    video: "1ZljRAOQPP8",
   },
   {
     title: "Elixir of Madness",
@@ -57,6 +57,13 @@ const projects_es: Array<Project> = [
     tags: ["Unreal Engine"],
     video: "azuFPTO57I4",
     url: "https://arsalas.itch.io/elixir-of-madness",
+  },
+  {
+    title: "Plataformas 3D",
+    description:
+      "Este juego de plataformas 3D, desarrollado íntegramente en Unreal Engine 5, ofrece una experiencia desafiante y divertida. Los jugadores deberán demostrar sus habilidades de salto y precisión para superar obstáculos y derrotar a enemigos inteligentes que utilizan patrones de patrullaje y persecución. La física realista de las plataformas móviles añade un nivel extra de complejidad al gameplay. Además, el juego cuenta con un sistema de partículas personalizado que crea efectos visuales impresionantes, como explosiones y partículas de polvo. La recolección de monedas desbloquea nuevos niveles y mejoras para el personaje.",
+    tags: ["Unreal Engine"],
+    video: "R_U4iilHgsI",
   },
 ];
 const projects_en: Array<Project> = [
@@ -78,7 +85,7 @@ const projects_en: Array<Project> = [
   {
     title: "Xihui Yogini",
     description:
-      "Natural Wellbeing Marketplace.",
+      "I designed and developed a marketplace on Shopify, integrating multiple payment gateways, shipping options, and inventory management systems. The platform features an intuitive dashboard for sellers, facilitating the management of their products and orders",
     tags: ["Shopify"],
     image: "xihui.png",
     url: "https://xihuiyogini.com/",
@@ -94,9 +101,9 @@ const projects_en: Array<Project> = [
   {
     title: "Parcheesi",
     description:
-      "Parcheesi game created for arcade machine where you can play against 4 players and create a player profile. You can accumulate points with your player profile.",
-    tags: ["Unreal Engine", "C++"],
-    video: "Za9HJG0iIK4",
+      "A game developer presents a Parcheesi arcade game built using the Unity engine. Designed for a horizontal touchscreen interface, the game supports up to four players simultaneously. With multiplayer options, customizable avatars, and a progressive scoring system, this project demonstrates proficiency in game development, UI design, and player engagement.",
+    tags: ["Unity", "C#"],
+    video: "1ZljRAOQPP8",
   },
   {
     title: "Elixir of Madness",
@@ -106,7 +113,13 @@ const projects_en: Array<Project> = [
     video: "azuFPTO57I4",
     url: "https://arsalas.itch.io/elixir-of-madness",
   },
-
+  {
+    title: "Plataformer 3D",
+    description:
+      "This 2D platformer, entirely developed in Unreal Engine 5, offers a challenging and fun experience. Players will need to demonstrate their jumping and precision skills to overcome obstacles and defeat cunning enemies that employ patrol patterns and pursuit tactics. The realistic physics of the moving platforms add an extra layer of complexity to the gameplay. Additionally, the game features a custom particle system that creates stunning visual effects, such as explosions and dust particles. Collecting coins unlocks new levels and character upgrades.",
+    tags: ["Unreal Engine"],
+    video: "R_U4iilHgsI",
+  },
 ];
 
 export function useProjects() {

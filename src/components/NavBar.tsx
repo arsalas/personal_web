@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "./LanguageSelector";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -23,9 +24,20 @@ export default function NavBar() {
             </a>
           </li>
           <li className="px-4">
-            <a className="group flex items-center py-3 active" href="#projects">
+            <Link
+              className="group flex items-center py-3 active"
+              to="/#projects"
+            >
               {t("title.projects")}
-            </a>
+            </Link>
+          </li>
+          <li className="px-4">
+            <Link
+              className="group flex items-center py-3 active"
+              to="portfolio"
+            >
+              {t("title.portfolio")}
+            </Link>
           </li>
           <li className="">
             <LanguageSelector />

@@ -5,6 +5,8 @@ import './index.css'
 import "./plugins/i18n";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import 'animate.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
