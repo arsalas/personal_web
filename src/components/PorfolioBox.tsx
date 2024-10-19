@@ -119,6 +119,7 @@ export default function PortfolioBox({
                 <div key={index}>
                   <img
                     className="aspect-video w-full"
+                    style={{ objectFit: "contain" }}
                     src={image.src}
                     alt={image.alt}
                   />

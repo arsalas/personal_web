@@ -66,7 +66,7 @@ const portfolio_es: Array<Portfolio> = [
     title: "Plataformas 3D",
     description:
       "Este juego de plataformas 3D, desarrollado íntegramente en Unreal Engine 5, ofrece una experiencia desafiante y divertida. Los jugadores deberán demostrar sus habilidades de salto y precisión para superar obstáculos y derrotar a enemigos inteligentes que utilizan patrones de patrullaje y persecución. La física realista de las plataformas móviles añade un nivel extra de complejidad al gameplay. Además, el juego cuenta con un sistema de partículas personalizado que crea efectos visuales impresionantes, como explosiones y partículas de polvo. La recolección de monedas desbloquea nuevos niveles y mejoras para el personaje.",
-    tags: ["Unreal Engine"],
+    tags: ["Unreal Engine 5", "C++"],
     video: "R_U4iilHgsI",
     images: [
       "platform1.png",
@@ -76,6 +76,22 @@ const portfolio_es: Array<Portfolio> = [
       "platform5.png",
       "platform6.png",
     ],
+  },
+  {
+    title: "Cub 3D Ray-Casting",
+    description:
+      "Como parte del currículo de 42, se llevó a cabo el proyecto cub3D, un homenaje al pionero Wolfenstein 3D. El objetivo principal fue comprender los principios detrás de los motores de renderizado en 3D, utilizando C y miniLibX. A través de la implementación de un algoritmo de ray-casting, se logró crear una representación tridimensional de un laberinto. Este proyecto no solo sirvió para reforzar conocimientos en programación, sino también para aplicar conceptos matemáticos como la trigonometría y la geometría en un contexto práctico.",
+    tags: ["C", "Ray-Casting", "MiniLibX"],
+    video: "Dd3onD8Rz24",
+    images: ["cub1.png", "cub2.png", "cub3.png", "cub4.png"],
+  },
+  {
+    title: "Global Game Jam - Team From 42 Barcelona",
+    description:
+      "In This Game The Player Takes Part In An Epic Journey About Survival. Your Skills Will Be Tested Both By The Environment And Yourself, By A Collectible System. Explore Your Surroundings And Keep Yourself Alive Until The Next Age Comes. The character moves with the W A S D / Arrow keys and releases the objects with the space bar.",
+    tags: ["Unreal Engine 4"],
+    video: "jVtWhs37J-E",
+    images: ["root1.png", "root2.png", "root3.png", "root4.png"],
   },
 ];
 const portfolio_en: Array<Portfolio> = [
@@ -134,7 +150,7 @@ const portfolio_en: Array<Portfolio> = [
     title: "Plataformer 3D",
     description:
       "This 2D platformer, entirely developed in Unreal Engine 5, offers a challenging and fun experience. Players will need to demonstrate their jumping and precision skills to overcome obstacles and defeat cunning enemies that employ patrol patterns and pursuit tactics. The realistic physics of the moving platforms add an extra layer of complexity to the gameplay. Additionally, the game features a custom particle system that creates stunning visual effects, such as explosions and dust particles. Collecting coins unlocks new levels and character upgrades.",
-    tags: ["Unreal Engine"],
+    tags: ["Unreal Engine 5", "C++"],
     video: "R_U4iilHgsI",
     images: [
       "platform1.png",
@@ -144,6 +160,22 @@ const portfolio_en: Array<Portfolio> = [
       "platform5.png",
       "platform6.png",
     ],
+  },
+  {
+    title: "Cub 3D Ray-Casting",
+    description:
+      "Within the 42 curriculum, the cub3D project was developed as a tribute to the groundbreaking Wolfenstein 3D. The main goal was to understand the mechanisms behind 3D rendering engines using C and miniLibX. Through the implementation of a ray-casting algorithm, a 3D maze was created. This project not only reinforced programming skills but also allowed for the application of mathematical concepts like trigonometry and geometry in a practical setting.",
+    tags: ["C", "Ray-Casting", "MiniLibX"],
+    video: "Dd3onD8Rz24",
+    images: ["cub1.png", "cub2.png", "cub3.png", "cub4.png"],
+  },
+  {
+    title: "Global Game Jam - Team From 42 Barcelona",
+    description:
+      "In This Game The Player Takes Part In An Epic Journey About Survival. Your Skills Will Be Tested Both By The Environment And Yourself, By A Collectible System. Explore Your Surroundings And Keep Yourself Alive Until The Next Age Comes. The character moves with the W A S D / Arrow keys and releases the objects with the space bar.",
+    tags: ["Unreal Engine 4"],
+    video: "jVtWhs37J-E",
+    images: ["root1.png", "root2.png", "root3.png", "root4.png"],
   },
 ];
 
