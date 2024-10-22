@@ -2,34 +2,39 @@ import { useTranslation } from "react-i18next";
 import LanguageSelector from "./LanguageSelector";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const { t } = useTranslation();
   return (
     <>
-      <nav className="fixed w-full bg-gradient-to-r from-blue-950/50 to-blue-900/50 hidden sm:block z-50">
+      <nav className="fixed w-full bg-gradient-to-r from-blue-950 to-blue-900 hidden sm:block z-50">
+       
         <ul className="flex flex-row justify-end text-white p-2">
           <li className="px-4">
-            <a className="group flex items-center py-3 active" href="#about">
+            <HashLink
+              className="group flex items-center py-3 active"
+              to="/#about"
+            >
               {t("title.about")}
-            </a>
+            </HashLink>
           </li>
           <li className="px-4">
-            <a
+            <HashLink
               className="group flex items-center py-3 active"
-              href="#experience"
+              to="/#experience"
             >
               {t("title.experience")}
-            </a>
+            </HashLink>
           </li>
           <li className="px-4">
-            <Link
+            <HashLink
               className="group flex items-center py-3 active"
               to="/#projects"
             >
               {t("title.projects")}
-            </Link>
+            </HashLink>
           </li>
           <li className="px-4">
             <Link

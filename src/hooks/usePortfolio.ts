@@ -13,6 +13,14 @@ export interface Portfolio {
 
 const portfolio_es: Array<Portfolio> = [
   {
+    title: "Parchis",
+    description:
+      "Desarrollador de videojuegos presenta su proyecto de parchís para arcade, diseñado en Unity. La interfaz táctil horizontal permite una interacción fluida para hasta 4 jugadores simultáneos. Con modos de juego individuales y por parejas, perfiles personalizables y un sistema de puntuación, este juego ofrece una experiencia completa y rejugable.",
+    tags: ["Unity", "C#"],
+    video: "1ZljRAOQPP8",
+    images: ["parchis1.png", "parchis2.png", "parchis3.png", "parchis4.png"],
+  },
+  {
     title: "Space Stealth",
     description:
       "Desarrollo de un videojuego en Unreal Engine 4 basado en Metal Gear Solid para proyecto final de máster. El juego presenta un sistema de IA enemigo con detección visual y auditiva, permitiendo al jugador emplear tácticas de sigilo. El protagonista cuenta con un amplio repertorio de movimientos y habilidades, incluyendo correr, agacharse y nadar. Se ha implementado un sistema de armas versátil, con diferentes tipos de proyectiles y accesorios como miras telescópicas. El diseño de niveles incorpora elementos interactivos como visión nocturna (utilizando shaders) y puzzles que requieren el uso de objetos específicos. El clímax del juego es una intensa batalla contra un jefe final con patrones de ataque adaptables.",
@@ -40,14 +48,6 @@ const portfolio_es: Array<Portfolio> = [
     ],
   },
   {
-    title: "Parchis",
-    description:
-      "Desarrollador de videojuegos presenta su proyecto de parchís para arcade, diseñado en Unity. La interfaz táctil horizontal permite una interacción fluida para hasta 4 jugadores simultáneos. Con modos de juego individuales y por parejas, perfiles personalizables y un sistema de puntuación, este juego ofrece una experiencia completa y rejugable.",
-    tags: ["Unity", "C#"],
-    video: "1ZljRAOQPP8",
-    images: ["parchis1.png", "parchis2.png", "parchis3.png", "parchis4.png"],
-  },
-  {
     title: "Elixir of Madness",
     description:
       "Desarrollo de un prototipo de juego cooperativo en Unreal Engine 5 para la Game Jam Level Up 2024. El proyecto consistió en la creación de un sistema de juego cooperativo para tres jugadores, cada uno con habilidades únicas (guerrero, mago, arquero). Se implementaron mecánicas de combate, exploración de mazmorras y resolución de puzzles básicos. Para lograr una experiencia de juego fluida, se utilizó un sistema de navegación de personajes (AI) y un sistema de detección de colisiones. El juego cuenta con un sistema de guardado básico y un menú principal funcional. La programación se realizó principalmente en Blueprint.",
@@ -55,7 +55,6 @@ const portfolio_es: Array<Portfolio> = [
     video: "azuFPTO57I4",
     url: "https://arsalas.itch.io/elixir-of-madness",
     images: [
-      "elixir1.png",
       "elixir2.png",
       "elixir3.png",
       "elixir4.png",
@@ -96,6 +95,14 @@ const portfolio_es: Array<Portfolio> = [
 ];
 const portfolio_en: Array<Portfolio> = [
   {
+    title: "Parcheesi",
+    description:
+      "A game developer presents a Parcheesi arcade game built using the Unity engine. Designed for a horizontal touchscreen interface, the game supports up to four players simultaneously. With multiplayer options, customizable avatars, and a progressive scoring system, this project demonstrates proficiency in game development, UI design, and player engagement.",
+    tags: ["Unity", "C#", "Photoshop"],
+    video: "1ZljRAOQPP8",
+    images: ["parchis1.png", "parchis2.png", "parchis3.png", "parchis4.png"],
+  },
+  {
     title:
       "Degree in video game design and programming with Unreal Engine Final Project",
     description:
@@ -124,14 +131,6 @@ const portfolio_en: Array<Portfolio> = [
     ],
   },
   {
-    title: "Parcheesi",
-    description:
-      "A game developer presents a Parcheesi arcade game built using the Unity engine. Designed for a horizontal touchscreen interface, the game supports up to four players simultaneously. With multiplayer options, customizable avatars, and a progressive scoring system, this project demonstrates proficiency in game development, UI design, and player engagement.",
-    tags: ["Unity", "C#", "Photoshop"],
-    video: "1ZljRAOQPP8",
-    images: ["parchis1.png", "parchis2.png", "parchis3.png", "parchis4.png"],
-  },
-  {
     title: "Game Jam Level Up 2024",
     description:
       "Development of a cooperative game prototype in Unreal Engine 5 for the Level Up 2024 Game Jam. The project involved creating a cooperative gameplay system for three players, each with unique abilities (warrior, mage, archer). Combat mechanics, dungeon exploration, and basic puzzle solving were implemented. To achieve a seamless gameplay experience, a character navigation system (AI) and a collision detection system were utilized. The game features a basic save system and a functional main menu. Programming was primarily done in Blueprint.",
@@ -139,7 +138,6 @@ const portfolio_en: Array<Portfolio> = [
     video: "azuFPTO57I4",
     url: "https://arsalas.itch.io/elixir-of-madness",
     images: [
-      "elixir1.png",
       "elixir2.png",
       "elixir3.png",
       "elixir4.png",
