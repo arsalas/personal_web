@@ -1,6 +1,6 @@
 ---
 title: Platform Game
-publishDate: 2019-10-02 00:00:00
+publishDate: 2024-10-02 00:00:00
 img: /assets/portfolio/platform/platform4.png
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 video: https://player.vimeo.com/video/1021216549?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
