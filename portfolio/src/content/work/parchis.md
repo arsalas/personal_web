@@ -1,7 +1,7 @@
 ---
 title: Parcheesi
 publishDate: 2024-12-01 00:00:00
-img: /assets/portfolio/parchis/parchis1.png
+img: /assets/portfolio/parchis/parchis5.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!

@@ -7,6 +7,7 @@ import ContactCTA from "../../components/ContactCTA.astro";
 import Hero from "../../components/Hero.astro";
 import Icon from "../../components/Icon.astro";
 import Pill from "../../components/Pill.astro";
+import Grid from "../../components/Grid.astro";
 
 interface Props {
   entry: CollectionEntry<"portfolio">;
@@ -81,6 +82,7 @@ const { Content } = await entry.render();
           <div class="content">
             <Content />
           </div>
+
           <div class="embla">
             <div class="embla__container">
               {
