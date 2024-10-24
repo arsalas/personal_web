@@ -65,7 +65,7 @@ export default function PortfolioBox({
   };
   return (
     <div
-      className="text-slate-400 h-svh flex flex-col justify-center items-center"
+      className="text-slate-400 flex flex-col justify-center items-center"
       //   style={{ backgroundImage: `url(${imagesCarousel[0].src})` }}
     >
       <div className="content">

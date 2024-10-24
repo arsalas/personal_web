@@ -14,20 +14,25 @@ export default function PortfolioPage() {
   return (
     <Section>
       <article
-        id="projects"
-        className=" pt-10"
+        id="portfolio"
+        className="flex flex-col justify-center items-center p-4"
       >
-        {portfolio.map(({ description, tags, title, images, video, url }) => (
-          <PortfolioBox
-            description={description}
-            tags={tags}
-            title={title}
-            images={images}
-            key={title}
-            video={video}
-            url={url}
-          />
-        ))}
+        <div className=" max-w-4xl">
+          <h2 className="text-xl font-bold uppercase tracking-widest text-slate-200 ">
+            Portfolio
+          </h2>
+          {portfolio.map(({ description, tags, title, images, video, url }) => (
+            <PortfolioBox
+              description={description}
+              tags={tags}
+              title={title}
+              images={images}
+              key={title}
+              video={video}
+              url={url}
+            />
+          ))}
+        </div>
       </article>
     </Section>
   );

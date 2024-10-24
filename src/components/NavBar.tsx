@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "./LanguageSelector";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 export default function NavBar() {
@@ -10,7 +10,6 @@ export default function NavBar() {
   return (
     <>
       <nav className="fixed w-full bg-gradient-to-r from-blue-950 to-blue-900 hidden sm:block z-50">
-       
         <ul className="flex flex-row justify-end text-white p-2">
           <li className="px-4">
             <HashLink
@@ -37,12 +36,20 @@ export default function NavBar() {
             </HashLink>
           </li>
           <li className="px-4">
-            <Link
+            <HashLink
               className="group flex items-center py-3 active"
-              to="portfolio"
+              to="/#demo-reel"
+            >
+              Demo Reel
+            </HashLink>
+          </li>
+          <li className="px-4">
+            <HashLink
+              className="group flex items-center py-3 active"
+              to="/#portfolio"
             >
               {t("title.portfolio")}
-            </Link>
+            </HashLink>
           </li>
           <li className="">
             <LanguageSelector />
@@ -101,6 +108,24 @@ export default function NavBar() {
                 href="#projects"
               >
                 {t("title.projects")}
+              </a>
+            </li>
+            <li className="px-4">
+              <a
+                onClick={() => setIsOpen(false)}
+                className="group flex items-center py-3 active"
+                href="#demo-reel"
+              >
+                Demo Reel
+              </a>
+            </li>
+            <li className="px-4">
+              <a
+                onClick={() => setIsOpen(false)}
+                className="group flex items-center py-3 active"
+                href="#portfolio"
+              >
+                {t("title.portfolio")}
               </a>
             </li>
           </ul>

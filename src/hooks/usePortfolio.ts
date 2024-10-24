@@ -54,12 +54,7 @@ const portfolio_es: Array<Portfolio> = [
     tags: ["Unreal Engine"],
     video: "azuFPTO57I4",
     url: "https://arsalas.itch.io/elixir-of-madness",
-    images: [
-      "elixir2.png",
-      "elixir3.png",
-      "elixir4.png",
-      "elixir5.png",
-    ],
+    images: ["elixir2.png", "elixir3.png", "elixir4.png", "elixir5.png"],
   },
   {
     title: "Plataformas 3D",
@@ -91,6 +86,14 @@ const portfolio_es: Array<Portfolio> = [
     tags: ["Unreal Engine 4"],
     video: "jVtWhs37J-E",
     images: ["root1.png", "root2.png", "root3.png", "root4.png"],
+  },
+  {
+    title: "Final Fantasy XP",
+    description:
+      "The beginning of a journey in game development. At 16, I used RPG Maker XP to develop my first ambitious game, inspired by the Final Fantasy series. This project was fundamental to learning the basics of game development and ignited my passion for creating virtual worlds.",
+    tags: ["RPG Maker XP", "Ruby"],
+    video: "jVtWhs37J-E",
+    images: ["xp1.png", "xp2.png", "xp3.png", "xp4.png", "xp5.png", "xp6.png"],
   },
 ];
 const portfolio_en: Array<Portfolio> = [
@@ -137,12 +140,7 @@ const portfolio_en: Array<Portfolio> = [
     tags: ["Unreal Engine", "Blender"],
     video: "azuFPTO57I4",
     url: "https://arsalas.itch.io/elixir-of-madness",
-    images: [
-      "elixir2.png",
-      "elixir3.png",
-      "elixir4.png",
-      "elixir5.png",
-    ],
+    images: ["elixir2.png", "elixir3.png", "elixir4.png", "elixir5.png"],
   },
   {
     title: "Plataformer 3D",
@@ -174,6 +172,14 @@ const portfolio_en: Array<Portfolio> = [
     tags: ["Unreal Engine 4"],
     video: "jVtWhs37J-E",
     images: ["root1.png", "root2.png", "root3.png", "root4.png"],
+  },
+  {
+    title: "Final Fantasy XP",
+    description:
+      "The beginning of a journey in game development. At 16, I used RPG Maker XP to develop my first ambitious game, inspired by the Final Fantasy series. This project was fundamental to learning the basics of game development and ignited my passion for creating virtual worlds.",
+    tags: ["RPG Maker XP", "Ruby"],
+    video: "jVtWhs37J-E",
+    images: ["xp1.png", "xp2.png", "xp3.png", "xp4.png", "xp5.png", "xp6.png"],
   },
 ];
 

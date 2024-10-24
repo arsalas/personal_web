@@ -8,6 +8,7 @@ import ExperiencePage from "./pages/ExperiencePage";
 import MainPage from "./pages/MainPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import PortfolioPage from "./pages/PortfolioPage";
+import DemoReelPage from "./pages/DemoReelPage";
 
 function App() {
   const [language, setLanguage] = useState<string>(i18next.language);
@@ -24,10 +25,12 @@ function App() {
                 <AboutPage />
                 <ExperiencePage />
                 <ProjectsPage />
+                <DemoReelPage />
+                <PortfolioPage />
               </>
             }
           />
-          <Route path="/portfolio" element={<PortfolioPage />} />
+          {/* <Route path="/portfolio" element={<PortfolioPage />} /> */}
         </Routes>
       </Router>
     </LanguageContext.Provider>

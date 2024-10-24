@@ -2,9 +2,10 @@ import { useTranslation } from "react-i18next";
 import Section from "../components/Section";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import LinkIcon from "../components/LinkIcon";
+import portrait from "../assets/portrait2.jpeg";
+
 export default function MainPage() {
   const { t } = useTranslation();
-
   return (
     <Section>
       <div className="flex justify-center items-center flex-col min-h-svh p-4">
@@ -17,6 +18,7 @@ export default function MainPage() {
         <h3 className="text-2xl font-semibold text-slate-400 my-5">
           {t("bio")}
         </h3>
+        <img style={{ borderRadius: "50%" }} src={portrait} alt="" />
 
         <ul className="flex gap-2 mt-12">
           <li className="">
