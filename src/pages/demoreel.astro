@@ -8,14 +8,8 @@ import Hero from "../components/Hero.astro";
 <BaseLayout title="About | Alberto Ramirez" description="About Alberto Ramirez">
   <div class="stack gap-20">
     <main class="wrapper about">
-      <Hero title="Demo Reel" tagline="">
-        <!-- <img
-          width="1553"
-          height="873"
-          src="/assets/at-work.jpg"
-          alt="Jeanine White at work with a colleague"
-        /> -->
-        <div style="padding:56.25% 0 0 0;position:relative;">
+      <Hero title="Demo Reel" tagline="Creativity in Code: My Journey Through Game Development">
+         <div style="padding:56.25% 0 0 0;position:relative;">
           <iframe
             src="https://player.vimeo.com/video/1021892715?badge=0&autopause=0&player_id=0&app_id=58479"
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
@@ -38,6 +32,9 @@ import Hero from "../components/Hero.astro";
 
   iframe {
     border: 0px;
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
   }
 
   img {
