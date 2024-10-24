@@ -10,7 +10,7 @@ import Grid from "../components/Grid.astro";
 import Hero from "../components/Hero.astro";
 import Icon from "../components/Icon.astro";
 import Pill from "../components/Pill.astro";
-import PortfolioPreview from "../components/PortfolioPreview.astro";
+import WorkPreview from "../components/WorkPreview.astro";
 
 // Page section components
 import ContactCTA from "../components/ContactCTA.astro";
@@ -67,7 +67,7 @@ const projects = (await getCollection("work"))
             {
               projects.map((project) => (
                 <li>
-                  <PortfolioPreview project={project} />
+                  <WorkPreview project={project} />
                 </li>
               ))
             }

@@ -5,16 +5,10 @@ import ContactCTA from "../components/ContactCTA.astro";
 import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout
-  title="About | Alberto Ramirez"
-  description="About Alberto Ramirez"
->
+<BaseLayout title="About | Alberto Ramirez" description="About Alberto Ramirez">
   <div class="stack gap-20">
     <main class="wrapper about">
-      <Hero
-        title="Demo Reel"
-        tagline=""
-      >
+      <Hero title="Demo Reel" tagline="">
         <!-- <img
           width="1553"
           height="873"
@@ -23,8 +17,8 @@ import Hero from "../components/Hero.astro";
         /> -->
         <div style="padding:56.25% 0 0 0;position:relative;">
           <iframe
+            style="border:0;"
             src="https://player.vimeo.com/video/1021892715?badge=0&autopause=0&player_id=0&app_id=58479"
-            frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
             style="position:absolute;top:0;left:0;width:100%;height:100%;"
             title="Demo Reel"></iframe>
