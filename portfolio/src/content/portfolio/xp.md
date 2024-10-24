@@ -12,8 +12,7 @@ images:
   - /assets/portfolio/xp/xp5.png
   - /assets/portfolio/xp/xp6.png
 description: |
-  We developed brand positioning and design assets for the launch
-  of a new colored water product.
+  The beginning of a journey in game development with RPG Maker XP.
 tags:
   - RPG Maker XP
   - Ruby
