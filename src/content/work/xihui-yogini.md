@@ -6,6 +6,7 @@ img: /assets/xihui_screen.png
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   We developed a virtual showcase for the softest bedding imaginable.
+link: https://xihuiyogini.com/
 tags:
   - Shopify
 ---

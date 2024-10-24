@@ -1,0 +1,56 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Pill from "./Pill.astro";
+
+interface Props {
+  experience: CollectionEntry<"experience">;
+}
+
+const { data } = Astro.props.experience;
+---
+
+<div class="content">
+  <h2 class="section-title">
+    {data.title} · {data.company}
+  </h2>
+  <p class="section-sub-title">{data.period}</p>
+  <p class="details">{data.description}</p>
+  <div class="tags">
+    {data.tags.map((t) => <Pill>{t}</Pill>)}
+  </div>
+</div>
+
+<style>
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding-bottom: 2.5rem;
+  }
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-lg);
+    color: var(--gray-0);
+  }
+
+  .section-sub-title {
+    grid-column-start: 1;
+    font-size: var(--text-lg);
+    color: var(--gray-1);
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+</style>

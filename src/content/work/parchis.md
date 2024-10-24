@@ -1,6 +1,6 @@
 ---
 title: Parcheesi
-publishDate: 2024-12-01 00:00:00
+publishDate: 2023-12-01 00:00:00
 img: /assets/portfolio/parchis/parchis5.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |

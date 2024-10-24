@@ -3,6 +3,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 import ContactCTA from "../components/ContactCTA.astro";
 import Hero from "../components/Hero.astro";
+import { getCollection } from "astro:content";
+import ExperiencePreview from "../components/ExperiencePreview.astro";
+
+const experiences = (await getCollection("experience")).sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
 ---
 
 <BaseLayout
@@ -47,10 +53,12 @@ import Hero from "../components/Hero.astro";
         </div>
       </section>
       <section>
-        <h2 class="section-title">Skills</h2>
+        <h2 class="section-title">Experience</h2>
         <div class="content">
-          <p>Software Developer</p>
-          <p>Game Developer</p>
+          {experiences.map((exp) => <ExperiencePreview experience={exp} />)}
+          <a target="_blank" href="/resume.pdf">
+            View full resume</a
+          >
         </div>
       </section>
     </main>
@@ -83,6 +91,12 @@ import Hero from "../components/Hero.astro";
     grid-column-start: 1;
     font-size: var(--text-xl);
     color: var(--gray-0);
+  }
+
+  .section-sub-title {
+    grid-column-start: 1;
+    font-size: var(--text-lg);
+    color: var(--gray-1);
   }
 
   .content {
