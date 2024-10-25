@@ -10,7 +10,7 @@ tags:
   - Shopify
 ---
 
-This project is a fully functional e-commerce marketplace built on Shopify, designed to provide a seamless shopping experience for users. The marketplace features a range of customizable options, enabling both product management and secure transaction handling. 
+This project is a fully functional e-commerce marketplace built on **Shopify**, designed to provide a seamless shopping experience for users. The marketplace features a range of customizable options, enabling both product management and secure transaction handling. 
 
 Leveraging Shopify’s robust platform, I implemented optimized navigation, custom themes, and responsive design to enhance the user experience on both desktop and mobile. 
 

@@ -11,7 +11,8 @@ tags:
 
 This application was developed to facilitate internal contests for a company and its employees. 
 
-The platform allows the company to create and manage contests, onboard judges, and track contest progress from start to finish. 
+The platform allows the company to create and **manage contests**, onboard judges, and track contest progress from start to finish. 
+
 Additionally, a dedicated website enables employees to submit their entries for active contests, while a judges’ app provides a streamlined interface for scoring and evaluating submissions.
 
 This multi-platform solution ensures a smooth and organized contest process, promoting engagement and transparency within the company.

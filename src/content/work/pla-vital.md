@@ -11,8 +11,8 @@ tags:
   - MySQL
 ---
 
-This project is a dynamic personal website designed for a Kung Fu, Tai Chi, and women’s self-defense instructor.
+This project is a **dynamic personal website** designed for a Kung Fu, Tai Chi, and women’s self-defense instructor.
 
 The site highlights the instructor’s expertise and offerings, allowing visitors to learn about various classes and programs, contact the instructor directly, and explore a biography section to gain insight into his background and approach.
 
-Additionally, the site features a blog with articles on related topics and a custom dashboard for content management, enabling the instructor to easily update and manage the site’s content dynamically.
+Additionally, the site features a **blog** with articles on related topics and a custom dashboard for content management, enabling the instructor to easily update and manage the site’s content dynamically.
