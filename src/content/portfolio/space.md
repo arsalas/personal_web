@@ -1,21 +1,21 @@
 ---
 title: Space Stealth Final Thesis Project
 publishDate: 2020-03-04 00:00:00
-img: /assets/portfolio/space/space2.png
+img: /assets/portfolio/space/space2.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 video: https://player.vimeo.com/video/1021216549?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
 images:
-  - /assets/portfolio/space/space1.png
-  - /assets/portfolio/space/space2.png
-  - /assets/portfolio/space/space3.png
-  - /assets/portfolio/space/space4.png
-  - /assets/portfolio/space/space5.png
-  - /assets/portfolio/space/space6.png
-  - /assets/portfolio/space/space7.png
-  - /assets/portfolio/space/space8.png
-  - /assets/portfolio/space/space9.png
-  - /assets/portfolio/space/space10.png
-  - /assets/portfolio/space/space11.png
+  - /assets/portfolio/space/space1.jpg
+  - /assets/portfolio/space/space2.jpg
+  - /assets/portfolio/space/space3.jpg
+  - /assets/portfolio/space/space4.jpg
+  - /assets/portfolio/space/space5.jpg
+  - /assets/portfolio/space/space6.jpg
+  - /assets/portfolio/space/space7.jpg
+  - /assets/portfolio/space/space8.jpg
+  - /assets/portfolio/space/space9.jpg
+  - /assets/portfolio/space/space10.jpg
+  - /assets/portfolio/space/space11.jpg
 description: |
   We developed a virtual showcase for the softest bedding imaginable.
 tags:

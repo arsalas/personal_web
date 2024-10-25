@@ -1,14 +1,14 @@
 ---
 title: Cub 3D Ray-Casting
 publishDate: 2023-1-02 00:00:00
-img: /assets/portfolio/cub/cub1.png
+img: /assets/portfolio/cub/cub1.jpg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 video: https://player.vimeo.com/video/1022555582?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
 images:
-  - /assets/portfolio/cub/cub1.png
-  - /assets/portfolio/cub/cub2.png
-  - /assets/portfolio/cub/cub3.png
-  - /assets/portfolio/cub/cub4.png
+  - /assets/portfolio/cub/cub1.jpg
+  - /assets/portfolio/cub/cub2.jpg
+  - /assets/portfolio/cub/cub3.jpg
+  - /assets/portfolio/cub/cub4.jpg
 description: |
   We developed brand positioning and design assets for the launch
   of a new colored water product.

@@ -1,15 +1,15 @@
 ---
 title: Game Jam Level Up 2024
 publishDate: 2024-7-01 00:00:00
-img: /assets/portfolio/elixir/elixir2.png
+img: /assets/portfolio/elixir/elixir2.jpg
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 video: https://player.vimeo.com/video/1022544210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
 images:
-  - /assets/portfolio/elixir/elixir1.png
-  - /assets/portfolio/elixir/elixir2.png
-  - /assets/portfolio/elixir/elixir3.png
-  - /assets/portfolio/elixir/elixir4.png
-  - /assets/portfolio/elixir/elixir5.png
+  - /assets/portfolio/elixir/elixir1.jpg
+  - /assets/portfolio/elixir/elixir2.jpg
+  - /assets/portfolio/elixir/elixir3.jpg
+  - /assets/portfolio/elixir/elixir4.jpg
+  - /assets/portfolio/elixir/elixir5.jpg
 
 description: |
   We paired with a cutting-edge music API and a team of horticulturalists

@@ -1,15 +1,15 @@
 ---
 title: Parchisee
 publishDate: 2024-12-02 00:00:00
-img: /assets/portfolio/parchis/parchis5.png
+img: /assets/portfolio/parchis/parchis5.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 video: https://player.vimeo.com/video/1022552253?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1
 images:
-  - /assets/portfolio/parchis/parchis5.png
-  - /assets/portfolio/parchis/parchis1.png
-  - /assets/portfolio/parchis/parchis2.png
-  - /assets/portfolio/parchis/parchis3.png
-  - /assets/portfolio/parchis/parchis4.png
+  - /assets/portfolio/parchis/parchis5.jpg
+  - /assets/portfolio/parchis/parchis1.jpg
+  - /assets/portfolio/parchis/parchis2.jpg
+  - /assets/portfolio/parchis/parchis3.jpg
+  - /assets/portfolio/parchis/parchis4.jpg
 
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
