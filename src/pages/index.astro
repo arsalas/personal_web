@@ -61,18 +61,52 @@ const portfolio = (await getCollection("portfolio"))
         <header class="section-header stack gap-2 lg:gap-4">
           <h3>About me</h3>
           <p>
-            Highly skilled and versatile Full Stack Developer with experience in
-            a wide range of technologies. I specialize in creating modern and
-            scalable web and mobile applications, primarily using TypeScript
-            with Vue.js or React for the front-end and PHP or Node.js for the
-            back-end. I have experience in using relational and non-relational
-            databases. I have experience in game development with Unreal Engine
-            and Unity as well.
+            I am Alberto Ramirez, a passionate software developer with
+            experience in full stack application and video game development.
+            With a focus on creating interactive and functional experiences, I
+            have worked on various projects ranging from web applications to
+            video games, utilizing technologies such as JavaScript, React,
+            Node.js, Unreal Engine, and C++. My background in Game Design and
+            Development has provided me with a solid foundation in
+            object-oriented programming and modular system design. Additionally,
+            I enjoy sharing my knowledge and have had the opportunity to work as
+            a programming instructor, where I’ve shared my passion for
+            technology and helped others develop their skills. I am committed to
+            continuous learning and improving my abilities, always seeking new
+            opportunities to grow as a developer. If you’d like to learn more
+            about my projects or discuss how I can contribute to your team, feel
+            free to explore my portfolio.
           </p>
         </header>
 
         <div class="cta">
           <CallToAction href="/about/">
+            View All
+            <Icon icon="arrow-right" size="1.2em" />
+          </CallToAction>
+        </div>
+      </section>
+      <section class="section with-background with-cta">
+        <header class="section-header stack gap-2 lg:gap-4">
+          <h3>Portfolio</h3>
+          <p>Take a look below at some of my games from the past few years.</p>
+          <a href="/demoreel/"> Demo Reel </a>
+        </header>
+
+        <div class="gallery">
+          <Grid variant="offset">
+            {
+              portfolio.map((project) => (
+                <li>
+                  <PortfolioPreview project={project} />
+                </li>
+              ))
+            }
+          </Grid>
+        </div>
+
+        <div class="cta">
+          <CallToAction href="/portfolio/">
             View All
             <Icon icon="arrow-right" size="1.2em" />
           </CallToAction>
@@ -101,33 +135,6 @@ const portfolio = (await getCollection("portfolio"))
 
         <div class="cta">
           <CallToAction href="/work/">
-            View All
-            <Icon icon="arrow-right" size="1.2em" />
-          </CallToAction>
-        </div>
-      </section>
-
-      <section class="section with-background with-cta">
-        <header class="section-header stack gap-2 lg:gap-4">
-          <h3>Portfolio</h3>
-          <p>Take a look below at some of my games from the past few years.</p>
-          <a href="/demoreel/"> Demo Reel </a>
-        </header>
-
-        <div class="gallery">
-          <Grid variant="offset">
-            {
-              portfolio.map((project) => (
-                <li>
-                  <PortfolioPreview project={project} />
-                </li>
-              ))
-            }
-          </Grid>
-        </div>
-
-        <div class="cta">
-          <CallToAction href="/portfolio/">
             View All
             <Icon icon="arrow-right" size="1.2em" />
           </CallToAction>
